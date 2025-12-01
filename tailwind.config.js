@@ -4,9 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: 'class',
+  darkMode: 'class', // enables dark mode with class="dark" (we toggle it in React)
   theme: {
-    extend: {},
+    extend: {
+      // You can add custom colors, fonts, etc. here later if you want
+    },
   },
   plugins: [],
 }
